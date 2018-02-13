@@ -156,3 +156,4 @@ bar {
 }
 
 exec xrdb -merge ~/.config/urxvt/Xresources
+exec feh --bg-fill ~/.fehbg
