@@ -150,5 +150,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 exec --no-startup-id xrdb -merge ~/.config/urxvt/Xresources
+exec --no-startup-id compton -b
 exec --no-startup-id ~/.fehbg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
