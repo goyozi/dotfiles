@@ -1,2 +1,8 @@
 URxvt.scrollBar: false
 URxvt.font: xft:Noto Sans Mono:size=10
+
+URxvt.background: #000000
+URxvt.foreground: #cccccc
+
+URxvt.transparent: true
+URxvt.shading: 20
