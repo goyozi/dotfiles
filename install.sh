@@ -9,5 +9,3 @@ ln -sf $sources/polybar ~/.config/polybar
 echo -e "#!/bin/sh\nfeh --bg-fill $sources/wallpaper.jpg" > ~/.fehbg
 chmod +x ~/.fehbg
 
-chmod +x $sources/pomodoro/install.sh
-cd $sources/pomodoro && ./install.sh && cd -
