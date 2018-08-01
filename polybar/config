@@ -231,8 +231,10 @@ label-separator-foreground = ${colors.foreground-alt}
 
 menu-0-0 = lock
 menu-0-0-exec = i3lock
-menu-0-1 = logout
-menu-0-1-exec = i3-msg exit
+menu-0-1 = reboot
+menu-0-1-exec = systemctl reboot
+menu-0-2 = shutdown
+menu-0-2-exec = systemctl poweroff
 
 [settings]
 screenchange-reload = true
