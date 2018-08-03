@@ -158,6 +158,7 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+Delete exec ~/.config/i3/lock.sh
 
+exec --no-startup-id setxkbmap pl
 exec --no-startup-id xbindkeys
 exec --no-startup-id xrdb -merge ~/.config/urxvt/Xresources
 exec --no-startup-id compton -b
