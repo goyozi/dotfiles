@@ -40,8 +40,8 @@ modules-left = i3
 modules-center = pomodoro 
 modules-right = volume memory cpu battery date powermenu
 
-tray-position = right
-tray-padding = 2
+;tray-position = right
+;tray-padding = 2
 ;tray-transparent = true
 ;tray-background = #0063ff
 
@@ -194,17 +194,17 @@ format-prefix-foreground = ${colors.foreground}
 label = %date% %time%
 
 [module/volume]
-type = internal/alsa
+type = internal/pulseaudio
 
 mapped = true
 
 format-volume = <label-volume>
-label-volume = VOL  %percentage%%
+label-volume =   %percentage%%
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = " "
+format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
-label-muted = sound muted
+label-muted = muted
 
 [module/battery]
 type = internal/battery

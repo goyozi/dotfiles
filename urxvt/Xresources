@@ -1,5 +1,5 @@
 URxvt.scrollBar: false
-URxvt.font: xft:Hack:size=10
+URxvt.font: xft:Hack:size=10,xft:Material Icons:size=10
 
 URxvt.transparent: true
 URxvt.shading: 20
